@@ -5,11 +5,11 @@
     list-style-type: none;
     padding: 0;
 }
-@media (min-width: 321px) and (max-width: 655px) {
-  .footer {
+@media screen and (max-width: 600px) {
+    .footer {
     flex-wrap: wrap;
     margin-bottom: 32px;
-    flex-direction: column;
+    max-width: 400px;
   }
 }
 @media screen and (max-width: 320px ) {
