@@ -19,13 +19,14 @@
   .footer {
     flex-wrap: wrap;
     margin-left: 16px;
+    margin-bottom: 32px;
   }
 }
 @media screen and (max-width: 350px ) {
     .footer {
       max-width: 186px;
       flex-wrap: wrap;
-      margin-left: 16px;
       flex-direction: column;
+      margin-left: 16px;
     }
 }

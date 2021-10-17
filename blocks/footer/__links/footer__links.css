@@ -6,10 +6,11 @@
     padding: 0;
 }
 @media screen and (max-width: 600px) {
-    .footer {
+    .footer__links {
     flex-wrap: wrap;
     margin-bottom: 32px;
     max-width: 400px;
+    flex-direction: column;
   }
 }
 @media screen and (max-width: 320px ) {
