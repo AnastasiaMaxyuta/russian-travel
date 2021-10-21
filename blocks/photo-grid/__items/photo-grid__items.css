@@ -21,7 +21,7 @@
       gap: 16px;
     }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 350px) {
     .photo-grid__items {
       max-width: 288px;
       grid-template-columns: repeat(auto-fill, minmax(288px, 1fr));
