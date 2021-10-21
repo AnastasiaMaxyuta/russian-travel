@@ -17,12 +17,12 @@
     }
 }
 @media (min-width: 769px) and (max-width: 920px) {
-    .place {
-      max-width: 725px;
-      margin: 0 auto 73px;
-      grid-template-columns: 350px 1fr;
-      column-gap: 28px;
-    }
+  .place {
+    max-width: 725px;
+    margin: 0 auto 73px;
+    grid-template-columns: 350px 1fr;
+    column-gap: 28px;
+  }
 }
 @media screen and (max-width: 768px) {
     .place {
