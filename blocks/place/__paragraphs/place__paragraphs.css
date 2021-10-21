@@ -1,30 +1,9 @@
 .place__paragraphs {
     margin: 0;
-    min-width: 484px;
+    max-width: 484px;
 }
-@media screen and (max-width: 1024px ) {
+@media screen and (max-width: 350px) {
     .place__paragraphs {
-      min-width: 456px;
-    }
-}
-@media (min-width: 769px) and (max-width: 920px) {
-    .place__paragraphs {
-      min-width: 355px;
-    }
-}
-@media screen and (max-width: 768px ) {
-    .place__paragraphs {
-      min-width: 352px;
-    }
-}
-@media (min-width: 351px) and (max-width: 730px) {
-    .place__paragraphs {
-      min-width: calc(100vw - 340px - 28px);
-    }
-}
-@media screen and (max-width: 350px ) {
-    .place__paragraphs {
-      min-width: 288px;
       margin: 0 16px;
     }
 }
