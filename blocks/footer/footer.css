@@ -31,5 +31,7 @@
       flex-wrap: wrap;
       flex-direction: column;
       margin-left: 16px;
+      padding: 0;
+      margin-top: 64px;
     }
 }
